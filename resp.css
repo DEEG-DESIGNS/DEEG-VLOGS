@@ -1,0 +1,485 @@
+@media(max-width:768px) {
+    div{
+        /* border: solid 2px; */
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+       
+    }
+    
+    a{
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .hero span{
+        text-align: center;
+    }
+    
+    header{
+        height: 5vh;
+        width: 94vw;
+        display: flex;
+        position: relative;
+        z-index: 10;
+        background-color: rgba(255, 255, 255, 0)
+    }
+    header div {
+        width: 50%;
+     }
+    
+    .nav{
+        display: none;
+    }
+    
+    .link{
+        color: #2ec9b7;
+    }
+    
+    .hero{
+        width: 94vw;
+        height:75vh;
+        background-color: blue; 
+        background-image:url("project pics/Ellipse 72.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -6vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        text-align: center;
+      }
+    
+    button{
+        color: white;
+        background-color:#2CBBAA;
+        border: none;
+        font-size: 10px;
+    }
+    .red{
+        height: 30px;
+        border-radius: 15px;
+        font-size: 15px;
+        display: none;
+    }
+    
+    header a{
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        gap:4px;
+        position: unset;
+     } 
+    .onee {
+        padding-left:9rem;
+                color: white;
+        position: relative;
+        bottom:-35px;
+    }
+        
+    .twoe{
+        padding-left:9rem;
+        color: #2CBBAA;
+        position: relative;
+        top: -10px;
+    }
+    
+    .techj{
+        height: 20px;
+        margin-left:45px;
+    }
+       
+    .menu-toggle {
+        display: flex;
+        flex-direction: row;       
+        margin-right: 4rem;
+        justify-content: flex-end;
+        font-size: 20px;
+        cursor: pointer;
+        color: #fff;
+        margin-top: -8px;
+    }
+    
+    .sidebar{
+      position: absolute;
+      margin-top: -5px;
+      box-shadow: 0px 0px 5px;
+      width: 80vw;
+      height: 70vh;
+      display: none;
+      flex-direction: column;
+      justify-content: flex-start;
+      background-color: #AAAAB4D1;
+      backdrop-filter: blur(5px);
+      margin-left:13vw;
+      border-radius: 15px;
+      overflow-x: hidden;
+      transition: 0.5s;
+      z-index: 10;
+      position: fixed;
+    }
+    
+
+    
+    .sidebar .close-btn {
+        font-size: 36px;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .sidebar a {
+      margin-bottom: 2vw;
+      font-size: 3vw;
+      transition: 0.3s;
+    }
+
+    li{
+        list-style: none;
+    }
+    
+    .inno{
+        background-image: url("project pics/brain.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+        width: 94vw;
+        margin-top: -40px;
+    }
+    
+    .inno children {
+        height: 100%;
+    }
+    
+    .widiv{
+        width: 40%;
+    }
+      .tes{
+            flex-direction: column;
+          width: 60%;
+      }
+    
+    .pisw{
+        height: 50px;
+        position: relative;
+        top: 1rem;
+        left: 3rem;
+    }
+    .mic{
+        width: 94vw;
+        gap: 2rem;
+        height: fit-content;
+    }
+    
+    .mic div{
+        flex-direction: column;
+        width: 40%;   
+    }
+    
+    .shif{
+        margin-left:7vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .pic{
+        margin-top: -12px;
+    }
+    
+    .shat{
+        margin-left: 9vw;
+    }
+    
+    .mica{
+        width: 9rem;
+        font-size:11px;
+        margin-bottom: 17px;
+    }
+    
+    .mical{
+        width:9rem;
+        font-size: 9px;
+        margin-top: 0px;
+        margin-bottom: none;
+    }
+    .el{
+        width: 9rem;
+        font-size: 10px;
+        margin-top: -px;
+        margin-bottom: 10px;
+    }
+    
+    .game{
+        width: 9rem;
+        font-size: 9px;
+    }
+    
+    .obj{
+        width: 35vw;
+        font-size:2vw;
+        position: relative;
+        top: 1rem;
+    }
+    
+    .lrt{
+        font-size: 7px;
+        font-weight: bold;
+        color: #7F8181;
+        margin-left: 10px;
+        margin-top: -5px;  
+    }
+    
+    .fad{
+        width:170px;
+        font-size:10px;
+        font-weight: bolder;
+        margin-left:10px;
+        color: #2CBBAA;
+        position: relative;
+        top: -140px; 
+    }
+    
+    .nov{
+        width: 170px;
+        font-size:10px;
+        font-weight:bolder;  
+        position: relative;
+        top: -60px; 
+        margin-left:10px;
+    }
+    
+    .wow{
+        color: #2CBBAA;
+    }
+    
+    .mrt{
+        width: 23px;
+        font-size:25px;
+        font-weight:bolder;  
+        position: relative;
+        top: -170px; 
+        margin-left:10px;
+        color: #2CBBAA;
+    }
+    
+    .tspe{
+        width: 273px;
+        font-size:25px;
+        font-weight:bolder;  
+        position: relative;
+        top: -200px; 
+        margin-left:10px;
+    }
+    
+    .spon{
+        height: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5px;
+        gap: 5px;
+    }
+    
+    .getSeat{
+        /* background-image: url("project pics/Rectangle 134.png"); */
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+        background-color: blue;
+        height: 40vh; 
+        width: 94vw;
+        /* position: relative;
+        z-index: -3; */
+    }
+    
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url("project pics/Frame 186.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 15vh;
+        width: 94vw;
+        margin: 0px;
+    }
+    
+    
+    .cent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+    }
+    
+    .amt{
+        border: 2px solid #2CBBAA ;
+        border-radius: 20px;
+        width:30vw;
+        height: 35vh;
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: center;
+
+    }
+    
+    .ps{
+        font-size: 3vw;
+        margin-top: 1.7vw;
+    }
+    
+    .text{
+        margin-top: -25px;
+        font-size: 1.5vw; 
+    }
+    .doz{
+        font-size: 8vw;
+        margin-top: -4vw;
+    }
+    .ev{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .di4{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .one{
+        color: #2CBBAA;
+        position: relative;
+        top: -5px;
+        font-size: 26px;
+        font-weight: bold;
+        margin-left:  1vw;
+    }
+    
+    .two{
+        width: 60vw;
+        color: white;
+        position: relative;
+        top: -40px;
+        font-size: 7vw;
+        font-weight: bold;
+        margin-left: 1vw;
+    }
+    
+    .timer{
+        height: 40%;
+    }
+    
+    .pan{
+        margin-top: 15px;
+        height: 58%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bhed{
+        width: 90px;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .abs{
+        width: 70vw;
+        height: 8vh;
+        position: relative;
+        top: -8px;
+        font-size: 8px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        border-radius: 5px;
+        margin-left:0vw;
+    }
+    
+    .dte{
+        color: white;
+        margin-left: 1.5vw;
+        font-size: 10px;
+        margin-top: -40px;
+    }
+    
+    .hed{
+        width: 90px;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .timer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        margin-left: 1vw;
+    }
+    
+    .tibox{
+        background-color: black;
+        color: white;
+        width:10vw;
+        height: 50px;
+        margin-top: -10px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 2px;
+        align-items: center;
+        justify-content: center;
+        box-shadow: -2px -2px 5px #131313b7,2px 2px 5px #131313b7;
+    }
+    
+    .tibox div{
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        font-family: inter;
+    }
+    
+    .tibox span{
+        font-size: 5px;
+        font-family: inter;
+    }
+
+    .spic{
+        height: 30px;
+    }
+
+    .ext{
+        height: 20px;
+    }
+
+    .mpi{
+        width:31vw;
+        height: 32vw;
+    }
+
+    .footer span{
+      padding-right: 2vw;
+      margin-left: auto;
+      margin-bottom: 1.5vh;
+    }
+
+    body{
+        font-family: judson;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 96vw;
+        overflow-x: hidden;
+        /* background-color: #42445A;   */
+    }
+    }

@@ -1,0 +1,437 @@
+
+body{
+    font-family: judson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+}
+div{
+    display: flex;   
+}
+
+.sidebar{
+    display: none;
+}
+.sidebar children {
+    display: none;
+}
+header{
+    height: 10vh;
+    display: flex;
+    position: relative;
+    z-index: 15;
+    background-color: rgba(255, 255, 255, 0)
+}
+header div {
+    width: 25%;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    gap: 17px;
+    margin-top: -2vw;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.link{
+    color: #2ec9b7;
+}
+
+.hero span{
+    text-align: center;
+}
+.hero{
+    text-align: center;
+    height:800px;
+    background-image: url("project pics/Ellipse 71.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -15vh;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    text-align: center; 
+}
+
+.hero span{
+    margin-left: -160px;
+}
+
+button{
+    color: white;
+    background-color:#2CBBAA;
+    border: none;
+}
+header button{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.red{
+    margin-top: 1vw;
+    margin-left: 120px;
+}
+
+.menu-toggle {
+    display: none;      
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    gap: 25px;
+    position: relative;
+    top: 25px;
+}
+.onee {
+    padding: 0;
+    margin: 0;
+    color: white;
+    position: relative;
+    bottom:-35px;
+}
+    
+.twoe{
+    padding: 0;
+    margin: 0;
+    color: #2CBBAA;
+    position: relative;
+    top: -45px;
+}
+
+.techj{
+    margin-top: 1vw;
+    margin-left:40px;
+}
+
+.inno{
+    background-image: url("project pics/Screenshot (78).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    margin-top: -70px;
+}
+
+.inno children {
+    height: 100%;
+}
+
+.widiv{
+    width: 30%;
+}
+.tes{
+    flex-direction: column;
+    width: 70%;
+}
+
+.pisw{
+    position: relative;
+    top: -10px;
+    left: 80px;
+}
+.mic{
+   height: 420px;
+   margin-top: 20px;
+   gap: 10px;
+}
+
+.mic div{
+    flex-direction: column;
+    width: 50%;   
+}
+
+.shif{
+    margin-left:120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pic{
+    margin-top: -27px;
+}
+
+.shat{
+    margin-left:40%;
+}
+
+.mica{
+
+    font-size: 30px;
+    margin-top: 4px;
+}
+
+.mical{
+    font-size: 20px;
+    margin-top: -20px;
+}
+.el{
+    font-size: 30px;
+}
+
+.game{
+    font-size: 17px;
+    margin-top: -17px;
+}
+
+.obj{
+    width: 350px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.lrt{
+    font-size: 22px;
+    font-weight: bold;
+    color: #7F8181;
+    margin-left: 40px;
+    margin-top: -10px;  
+}
+
+.fad{
+    width:630px;
+    font-size:30px;
+    font-weight: bolder;
+    margin-left:40px;
+    color: #2CBBAA;
+    position: relative;
+    top: -160px; 
+}
+
+.nov{
+    width: 630px;
+    font-size:30px;
+    font-weight:bolder;  
+    position: relative;
+    top: -60px; 
+    margin-left:40px;
+}
+
+.wow{
+    color: #2CBBAA;
+}
+
+.mrt{
+    width: 630px;
+    font-size:55px;
+    font-weight:bolder;  
+    position: relative;
+    top: -180px; 
+    margin-left:40px;
+    color: #2CBBAA;
+}
+
+.tspe{
+    width: 630px;
+    font-size:55px;
+    font-weight:bolder;  
+    position: relative;
+    top: -230px; 
+    margin-left:40px;
+}
+
+.spon{
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    gap: 30px;
+}
+
+.getSeat{
+    background-image: url("project pics/Rectangle 134.png");
+    background-repeat: no-repeat;
+    width: 94vw;
+    background-size: cover;
+    gap: none;
+    height: 612px; 
+    /* position: relative;
+    z-index: -10; */
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("project pics/Frame 186.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 94vw;
+    margin-top: -120px;
+}
+
+.cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+
+.footer span{
+    margin-left: auto;
+    margin-bottom: 1.5vh;
+  }
+
+.amt{
+    border: 4px solid #2CBBAA ;
+    border-radius: 32px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.ps{
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.text{
+    margin-top: -50px;
+    font-size: 20px; 
+}
+.doz{
+    font-size: 70px;
+    margin-top: -25px;
+}
+.ev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.di4{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.one{
+    color: #2CBBAA;
+    position: relative;
+    top: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.two{
+    color: white;
+    position: relative;
+    top: -10px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.timer{
+    height: 40%;
+}
+
+.pan{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bhed{
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.abs{
+    width: 1000px;
+    height: 120px;
+    position: relative;
+    top: -7vh;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+    border-radius: 25px;
+    margin-left: 160px;
+}
+.dte{
+    color: white;
+    margin-left: 41px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 40px;
+}
+
+.hed{
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.tibox{
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: 140px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px -5px 10px #131313b7,5px 5px 10px #131313b7;
+}
+
+.tibox div{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    /* font-family: inter; */
+}
+
+.tibox span{
+    font-size: 25px;
+    font-family: inter;
+}
+
+body{
+    font-family: judson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 96vw;
+    overflow-x: hidden;
+    /* background-color: #42445A;   */
+}
+
+
+
+
